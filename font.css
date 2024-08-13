@@ -1,0 +1,59 @@
+
+.fontpp, caption{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.fontpp2, h4, h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.text-primary{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+p, h5, h2, .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* SECTION HERE */
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.image-box {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px; /* Adjust margin between images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    max-width: 500px; /* Set maximum width for the image box */
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 10px; /* Adjust border-radius for rounded corners */
+}
+
+.caption {
+    padding: 0px;
+    background-color: #fdfdfd;
+    border-radius: 10px 10px 10px 10px; /* Adjust border-radius for rounded bottom corners */
+    font-size: 15px; /* Adjust font size for captions */
+    align-items: center;
+    text-align: center;
+    
+}
+
+/*  */
+.navbar-nav .nav-link {
+    
+    color: black !important;
+    text-decoration: none; 
+   background-color: none; /* Set text color */
+  }
